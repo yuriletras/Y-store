@@ -1,0 +1,24 @@
+/* digital-store/src/App.css */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-gray);
+  color: var(--text-color);
+}
+
+/* Adiciona margem superior ao conteúdo principal para compensar o header fixo */
+.App-main-content {
+  flex-grow: 1; /* Permite que o conteúdo ocupe o espaço restante */
+  padding-top: 80px; /* Ajuste para a altura do seu Header */
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* Centraliza o conteúdo */
+  width: 100%;
+}
+
+/* Estilos básicos para garantir que as páginas não fiquem coladas */
+.App-main-content > div { /* Aplica a div wrapper de cada página */
+  padding: 20px 0;
+}

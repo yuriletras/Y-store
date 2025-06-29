@@ -1,0 +1,46 @@
+/* digital-store/src/components/Header.css */
+.header-container {
+  background-color: var(--primary-color);
+  padding: 15px 30px;
+  color: var(--white);
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed; /* Fixa o cabeçalho no topo */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Largura máxima do conteúdo do header */
+  margin: 0 auto; /* Centraliza o conteúdo do header */
+}
+
+.logo {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px; /* Espaço entre os itens da navegação */
+}
+
+.nav-links li a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: var(--secondary-color); /* Cor de hover */
+}

@@ -1,0 +1,69 @@
+/* digital-store/src/pages/HomePage.css */
+.home-page-container {
+  text-align: center;
+}
+
+.hero-section {
+  background-color: #e0f2f7;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.hero-section h2 {
+  font-size: 2.5em;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.call-to-action-button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-action-button:hover {
+  background-color: #4dc2ea;
+}
+
+.featured-products {
+  padding: 20px;
+}
+
+.featured-products h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  font-weight: bold;
+  color: var(--text-color);
+}
